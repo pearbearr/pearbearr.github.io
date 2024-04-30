@@ -1,0 +1,50 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    height: 100vh;
+    background-color: lightblue;
+  }
+  
+.center-stuff {
+    text-align: center;
+    margin-top: 20vh;
+  }
+
+.pictures {
+    margin-left: 35px;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    gap: 50px;
+}
+
+.random {
+    background-color: pink;
+    border-radius: 10px;
+    animation-name: color-change;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes color-change {
+    0% {
+        background-color: beige;
+    }
+    25% {
+        background-color: yellow;
+    }
+    50% {
+        background-color: lightcyan;
+
+    }
+    100% {
+        background-color: lightgreen;
+    }
+}
